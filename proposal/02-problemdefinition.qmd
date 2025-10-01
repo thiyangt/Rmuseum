@@ -21,4 +21,53 @@ It is important to cover:
 -->
 ```
 
-An example in-text citation [@wickham2016].
+## What the problem is
+
+History is important because it carries the knowledge, culture, and lessons of past generations. There are many historical paintings, frescos, artifacts that reseachers can explore to lean their composition, mathmatical concepts rooted in them. Unfortunately there is no package in both R and Python to that facilitates historical data analysis or access to historical data such as a collection of artifacts, historical frescos, etc. Through this research my main goals are as follows:
+
+1. Data Collection and convert data to R package (This package is called museum)
+
+    -	Collect images of wall paintings and artefacts
+    -	Collaborate with archaeologists, historians, and cultural institutions to gather historical context and metadata.
+    - Process images into unifying format, removing glare, etc.
+    -	Develop a structured digital database to store and organize artifacts for easy access.
+
+    
+2. Develop an R package to explore historical paintings, artifacts, or datasets in a guided, virtual museum style. (This package is called museumguide). The core functions that I plan to have,
+
+`museum_start()` – opens the virtual museum session (maybe in console or Shiny).
+
+`museum_gallery(theme = "kingdoms")` – lets you walk through galleries (e.g., Kandyan Kingdom, Mughal Empire, Ming Dynasty).
+
+`museum_art(id)` – display a specific painting/artwork with metadata (title, year, artist, dynasty, location).
+
+`museum_tour(type = "guided")` – auto-guided narrative (like a tour guide telling the story).
+
+
+`museum_palette(id)` – extract color palettes from the artwork (using imager or colordistance).
+
+`museum_map()` – shows a world map of where different paintings/kingdoms originated.
+
+`detect_geometric_patterns()` – identify tessellations, golden ratio proportions, and motifs.
+
+`cluster_paintings()` – group paintings by stylistic or geometric similarity using machine learning.
+
+`enhance_painting()` – apply image processing techniques to improve clarity of faded artwork.
+
+3. Convert the geometries into mandalas (The R package name is geomandalas)
+
+- A package based on historical mandalas
+
+- Book explaining how to draw mandalas using R using geom functions that I compiled in the geom encyclopedia written by me: https://thiyangt.github.io/geom.encyclopedia/
+
+As the initial step, through this grant, I will implement them to Sri Lanka. Based on that I, will set the framework for analysis. This a branch of my main project "ML2KL: Machine Learning to Kingdom Learning" available at https://thiyangt.github.io/ML2KL/
+
+## Who it affects
+
+
+## Why is it a problem
+
+## What will solving the problem enable (why should it be solved)
+
+
+## Brief summary of existing work and previous attempts (e.g., relevant R packages)

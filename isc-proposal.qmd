@@ -1,10 +1,10 @@
 ---
-title: "Proposal Title"
+title: "museum: A Guided Museum Experience with R"
 author:
-  - name: Annie Easley
-    orcid: 5555-5555-5555-5555
+  - name: Thiyanga S. Talagala
+    orcid: 0000-0002-0656-9789
     affiliations:
-      - "Lewis Research Center, National Aeronautics and Space Administration"
+      - "Department of Statistics, University of Sri Jayewardenepura"
 
 date: today
 date-format: iso
@@ -18,7 +18,7 @@ format:
 bibliography: references.bib
 ---
 
-_This template was last revised on 2025-08-26_
+
 
 
 {{< include proposal/00-exec-summary.qmd >}}
