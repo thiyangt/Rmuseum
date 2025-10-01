@@ -13,6 +13,22 @@ important because projects need to get up and running quickly.
 -->
 
 
+- Establish a GitHub organization to host all three R packages (museum, museumguide, geomandalas).
+
+- Create repository structures with folders for code, data (where permitted), documentation, and tutorials.
+
+- Implement version control protocols, issue tracking, and pull request guidelines to facilitate contributions from external collaborators.
+
+
+
+**Licensing Decisions**
+
+Determine appropriate open-source licenses for each package (e.g., MIT or GPL-3) to ensure free use, modification, and redistribution while protecting intellectual property.
+
+**Reporting Framework**
+
+ Outputs will be published on the project website https://thiyangt.github.io/ML2KL/
+
 ## Technical delivery
 <!--
 Covering the actual delivery of the project this section should
@@ -37,6 +53,10 @@ to be shared quarterly on the R Consortium blog.
  - [ ] UseR!
  - [ ] ISC meetings
 -->
+
+- Outputs will be published on the project website https://thiyangt.github.io/ML2KL/
+
+- Social media post via LinkedIn, X, bluesky
 
 ## Budget & funding plan
 

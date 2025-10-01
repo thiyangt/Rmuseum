@@ -1,12 +1,12 @@
 ---
-title: "museum: A Guided Museum Experience with R"
+title: "curiosities: A Guided Museum Experience with R"
 author:
   - name: Thiyanga S. Talagala
     orcid: 0000-0002-0656-9789
     affiliations:
       - "Department of Statistics, University of Sri Jayewardenepura"
 
-date: today
+date: "2025-10-1"
 date-format: iso
 format:
   html:

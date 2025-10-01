@@ -23,14 +23,36 @@ It is important to cover:
 
 ## What the problem is
 
-History is important because it carries the knowledge, culture, and lessons of past generations. There are many historical paintings, frescos, artifacts that reseachers can explore to lean their composition, mathmatical concepts rooted in them. Unfortunately there is no package in both R and Python to that facilitates historical data analysis or access to historical data such as a collection of artifacts, historical frescos, etc. Through this research my main goals are as follows:
+Ancient wall paintings and artifacts reveal a profound connection between art and mathematics. Many of these works encode geometric patterns, symmetry, tessellations, and other mathematical concepts, yet their full potential for exploration using modern data science and machine learning remains untapped. Unfortunately, there is currently no package in either R or Python that facilitates historical data analysis or provides access to collections of artifacts, historical frescos, and similar cultural heritage materials. This project addresses this gap by developing an R package for a database of historical paintings and artifacts, along with computational tools to analyze them, uncover embedded mathematical concepts, and support teaching and interdisciplinary learning. The whole project is called **curiosities** in short.
+
+## Who it affects
+
+**Researchers & Historians**
+
+- Gain access to a curated digital database of historical paintings, artifacts, etc.
+
+- Can use the R packages for analysis, visualization, and preservation of heritage.
+
+**Educators & Students**
+
+- This is an excellent way to promote programming among school students. Traditionally, programming is introduced through statistics, but for many, statistics may feel like a broad and abstract subject. By using historical data instead, programming can become more relatable and engaging. At the same time, this approach not only strengthens coding skills but also helps to promote an appreciation of history and mathematics together.
+
+
+## Why is it a problem
+
+As of right now, there isn't a R package made especially for studying fescos, artifacts and old paintings.As a result, there is little interaction between the study of cultural heritage and the scientific and programming communities.  This gap restricts opportunities for data-driven analysis of historical art.
+
+## What will solving the problem enable (why should it be solved)
+
+Through this research my main goals are as follows:
 
 1. Data Collection and convert data to R package (This package is called museum)
 
-    -	Collect images of wall paintings and artefacts
-    -	Collaborate with archaeologists, historians, and cultural institutions to gather historical context and metadata.
-    - Process images into unifying format, removing glare, etc.
-    -	Develop a structured digital database to store and organize artifacts for easy access.
+   -	Collect images of wall paintings and artefacts
+    
+   -	Collaborate with archaeologists, historians, and cultural institutions to gather historical context and metadata.
+   - Process images into unifying format, removing glare, etc.
+   -	Develop a structured digital database to store and organize artifacts for easy access.
 
     
 2. Develop an R package to explore historical paintings, artifacts, or datasets in a guided, virtual museum style. (This package is called museumguide). The core functions that I plan to have,
@@ -54,20 +76,16 @@ History is important because it carries the knowledge, culture, and lessons of p
 
 `enhance_painting()` – apply image processing techniques to improve clarity of faded artwork.
 
-3. Convert the geometries into mandalas (The R package name is geomandalas)
+3. Convert the geometries in historical paintings into mandalas (the R package name is geomandalas).
 
 - A package based on historical mandalas
 
 - Book explaining how to draw mandalas using R using geom functions that I compiled in the geom encyclopedia written by me: https://thiyangt.github.io/geom.encyclopedia/
 
-As the initial step, through this grant, I will implement them to Sri Lanka. Based on that I, will set the framework for analysis. This a branch of my main project "ML2KL: Machine Learning to Kingdom Learning" available at https://thiyangt.github.io/ML2KL/
+- Tutorial on how to use package functionalities to analyse historical data
 
-## Who it affects
-
-
-## Why is it a problem
-
-## What will solving the problem enable (why should it be solved)
-
+As the initial step, I will implement the proposed initiatives in Sri Lanka through this grant. Based on that, I will set the framework for analysis. This is a branch of my main project, "ML2KL: Machine Learning to Kingdom Learning," available at https://thiyangt.github.io/ML2KL/
 
 ## Brief summary of existing work and previous attempts (e.g., relevant R packages)
+
+None

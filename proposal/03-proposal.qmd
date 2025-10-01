@@ -7,6 +7,28 @@ how will you recover from them?
 This is where the proposal should be outlined.
 -->
 
+This project involves developing three R packages. The connection between the three packages follows the way a child observes a museum and learns from it. For example, the human process can be described as: (i) visiting a museum, (ii) exploring the artifacts with a tour guide, and (iii) drawing or recreating them when returning home.
+
+Phase 1: `museum` package (Month 1- Month 3)
+
+This package is like a museum where we prepare a database of artifacts.
+
+- Collect images of artifacts, historical paintings 
+
+- Standardize images (format, resolution, glare removal)
+
+- Development of `museum` package
+
+Phase 2: `museumguide` (Month 3- Month 8)
+
+- This package is like  a museum tour guide, who explains the things within the museum as outlined in the problem definition section
+
+Phase 3: `geommandalas` (Month 6 - Month 10)
+
+- Develop geomandalas R package to convert geometrical patterns in historical paintings into mandala designs.
+
+- Produce tutorials and open-access resources demonstrating, historical data analysis and mandala creation from historical art using geoms in data visualisation.
+
 ## Overview
 <!--
 At a high-level address what your proposal is and how it will address
@@ -16,6 +38,28 @@ section.
 
 Include concrete actions you will take and estimated timeline.
 -->
+
+This project develops an ecosystem of three interconnected R packages to address this problem:
+
+1. museum – a curated database of historical paintings and artifacts with structured metadata.
+
+2. museumguide – an interactive, guided virtual museum for exploring, analyzing, and visualizing artworks using machine learning and image processing.
+
+3. geomandalas – a package that converts geometric patterns from historical artworks into mandalas, supporting creative learning and teaching of mathematics through art.
+
+These packages collectively mirror the human museum learning process:
+
+Observe (museum) → Explore and Analyze (museumguide) → Create / Reflect (geomandalas).
+
+**Benefits to the R Community:**
+
+i. Introduces R users to a new interdisciplinary domain, combining history, art, mathematics, and programming.
+
+ii. Provides open-source tools and datasets for educational use, research, and creative exploration.
+
+iii. Demonstrates innovative applications of machine learning, computer vision, and interactive visualization in cultural heritage.
+
+iv. Encourages contributions from educators, historians, and programmers, fostering community-driven development.
 
 ## Detail
 <!--
@@ -31,11 +75,65 @@ Depending on project type the detail section should include:
 What is the smallest thing you can build that delivers value to your users?
 -->
 
+1. Data Package (`museum` R package)
+
+2. Guided Exploration (`museumguide` R package)
+
+3. Turning a painting’s geometry into a mandala using R (`geomandalas` R package)
+
 ### Architecture
 
 <!--
 What does the high-level architecture look like?
 -->
+
+**1. Data Layer (museum package)**
+
+Purpose: Central repository of historical paintings, wall frescos, and artifacts.
+
+Components:
+
+Curated image datasets (scanned or photographed).
+
+Metadata (artist, year, dynasty, location, historical notes).
+
+Preprocessing pipelines (image standardization, glare removal, resolution adjustment).
+
+Function: Provides structured access to all artifacts for analysis and visualization.
+
+**2. Exploration & Analysis Layer (museumguide package)**
+
+Purpose: Virtual guided museum and analysis interface.
+
+Components / Functions:
+
+Interactive gallery (`museum_gallery()`) and artifact display (`museum_art()`).
+
+Guided tour (`museum_tour()`), color palette extraction (`museum_palette()`), map visualization (`museum_map()`).
+
+Machine learning modules:
+
+Geometric pattern detection (`detect_geometric_patterns()`).
+
+Clustering & style classification (`cluster_paintings()`).
+
+Image enhancement (`enhance_painting()`).
+
+Function: Connects users to the data layer and provides analytical tools for educational and research purposes.
+
+**3. Creative / Output Layer (geomandalas package)**
+
+Purpose: Transform geometries from historical artifacts into mandalas for creative learning.
+
+Components / Functions:
+
+Mandala generation from geometric patterns.
+
+Tutorials and exercises for drawing mandalas in R using geom functions.
+
+Book-based examples integrating historical art, geometry, and programming.
+
+Function: Provides hands-on creative exploration, reinforcing learning of geometry, symmetry, and pattern recognition.
 
 ### Assumptions
 
@@ -43,8 +141,12 @@ What does the high-level architecture look like?
 What assumptions are you making that, if proven false, would invalidate the project?
 -->
 
+None
+
 ### External dependencies
 
 <!--
 What external dependencies does the project have (e.g. libraries, services, other projects, etc.)?
 -->
+
+

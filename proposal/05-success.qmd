@@ -9,14 +9,30 @@ thorough understanding going in of what the risks are to delivery
 What does success look like?
 -->
 
+
+
+- All three R packages are successfully published on CRAN.
+
+- Tutorials and open-access resources are produced and made available
+
+- The project video is produced and broadcasted.
+
 ## Measuring success
 <!--
 How will we know when success is achieved, what markers can we use
 along the way
 -->
 
+- Number of visits to project website
+
+- Github forks
+
+- Interaction in social media post
+
 ## Future work
 <!--
 How could this be extended / developed in the future by yourself
 and/or the community in general?
 -->
+
+The outcomes of this project can also be extended to other museums. I intend to leverage these results to attract grants for travel, purchase of equipment such as cameras, scanners, and computers, as well as to support collaborations with international researchers and conference publications.
