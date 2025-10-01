@@ -149,4 +149,5 @@ None
 What external dependencies does the project have (e.g. libraries, services, other projects, etc.)?
 -->
 
+None. Purely based on R.
 

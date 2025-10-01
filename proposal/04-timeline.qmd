@@ -38,6 +38,16 @@ Including target dates is really important as you need to be committed
 and the ISC need to have a means of tracking delivery
 -->
 
+1. Data Package (museum R package)
+
+2. Guided Exploration (museumguide R package)
+
+3. Turning a painting’s geometry into a mandala using R (geomandalas R package)
+
+4. Tutorials demonstrating the functionalities
+
+5. Project promotion video
+
 ## Other aspects
 
 <!--
@@ -58,6 +68,10 @@ to be shared quarterly on the R Consortium blog.
 
 - Social media post via LinkedIn, X, bluesky
 
+- Blog post on R Consortium website
+
+- Project short videos and youtube channel
+
 ## Budget & funding plan
 
 <!--
@@ -75,3 +89,21 @@ to the project and the project period. The ISC reserves the right to vet
 how funds are used for each project separately. If in doubt, please reach
 out to us.
 -->
+
+Phase 1: museum package (Month 1- Month 3)
+
+This package is like a museum where we prepare a database of artifacts.
+
+Data collection and coding: USD 1000
+
+Phase 2: museumguide (Month 3- Month 8)
+
+This package is like a museum tour guide, who explains the things within the museum as outlined in the problem definition section.
+
+Labor costs: USD 500
+
+Phase 3: geommandalas (Month 6 - Month 10)
+
+Creating videos: USD 400
+
+Additional cost (stationary, printouts): USD 100
